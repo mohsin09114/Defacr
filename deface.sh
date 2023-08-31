@@ -10,7 +10,7 @@
 	cd Deface
         read -p "Enter Untuk Memindahkan Ke sdcard"
 	cd
-        cd DEFACE
+        cd Deface
 	mv -f ngebot.py target.txt /sdcard/DEFACE
 	cd /sdcard/DEFACE
         ls
