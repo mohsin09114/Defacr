@@ -8,8 +8,9 @@
 	mkdir DEFACE
 	cd $HOME
 	cd Deface
-	cp -f ngebot.py /sdcard/DEFACE
-	cp -f target.txt /sdcard/DEFACE
+	cp -f ngebot.py target.txt /sdcard/DEFACE
 	cd /sdcard/DEFACE
+        ls
+	read -p "ENTER UNTUK MELANJUTKAN"
 	clear
         python2 ngebot.py
