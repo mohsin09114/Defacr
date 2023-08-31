@@ -8,7 +8,10 @@
 	mkdir DEFACE
 	cd $HOME
 	cd Deface
-	cp -f ngebot.py target.txt /sdcard/DEFACE
+        read -p "Enter Untuk Memindahkan Ke sdcard"
+	cd
+        cd DEFACE
+	mv -f ngebot.py target.txt /sdcard/DEFACE
 	cd /sdcard/DEFACE
         ls
 	read -p "ENTER UNTUK MELANJUTKAN"
